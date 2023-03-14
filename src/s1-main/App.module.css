@@ -1,0 +1,31 @@
+.App {
+    --header_height: 200px;
+
+
+}
+
+.hw {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top: 1px solid black;
+    width: 800px;
+    margin-left: 100px;
+
+
+
+}
+
+.hwTitle {
+    height: 200px;
+    justify-content:flex-end;
+    align-items:end;
+    text-align: left;
+
+}
+
+.title{
+    position: relative;
+    top: 160px;
+    left: 100px;
+}
