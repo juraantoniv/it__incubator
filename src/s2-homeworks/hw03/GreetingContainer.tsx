@@ -55,7 +55,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)
-        setName('')
     }
 
     const onBlur = () => {
@@ -66,8 +65,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         pureOnEnter(e, addUser)
     }
 
-    const totalUsers = users.length > 0 ? users.length : 0 // need to fix
-    const lastUserName = users.length > 0 ? users[users.length-1].name : '' // need to fix
+    const totalUsers = users.length  // need to fix
+    const lastUserName =users[users.length-1]?.name  // need to fix
 
     return (
         <Greeting
