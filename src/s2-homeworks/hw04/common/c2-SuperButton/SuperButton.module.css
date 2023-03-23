@@ -1,16 +1,21 @@
 .button {
+    padding: 20px;
 }
 
 .disabled {
+    background-color: grey;
 }
 
 .secondary {
+    background-color: lightblue;
 }
 
 .default {
+    background-color: green;
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
