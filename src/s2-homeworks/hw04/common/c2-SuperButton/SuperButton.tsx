@@ -7,10 +7,12 @@ type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonE
 
 type SuperButtonPropsType = DefaultButtonPropsType & {
     xType?: "red" | 'secondary' | ''
+    color?:boolean|undefined
 }
 
 const SuperButton: React.FC<SuperButtonPropsType> = (
     {
+        color,
         xType,
         className,
         disabled,
@@ -19,13 +21,15 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
 ) => {
 
 
-    const isRed = xType === 'red' && s.red
-    const isSecondary = xType === 'secondary' && s.secondary
-    const xtypeCondition = isRed || isSecondary || s.default
-
-    const disableCondition = disabled ? s.disabled : xtypeCondition
+    // const isRed = xType === 'red' && s.red
+    // const isSecondary = xType === 'secondary' && s.secondary
+    // const xtypeCondition = isRed || isSecondary || s.default
+    //
+    // const disableCondition = disabled ? s.disabled : xtypeCondition
+    const disableCondition = color ? s.color : ''
 
     const finalClassName = `${s.button} ${disableCondition}`
+    console.log(finalClassName);
 
     return (
         <button

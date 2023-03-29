@@ -7,11 +7,20 @@ import SuperButton from './common/c2-SuperButton/SuperButton'
 const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
     const [error, setError] = useState<string>('')
+    const [color, setColor] = useState<boolean>(false)
+
+
 
     const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
 
     console.log(stateForAllCheckboxes);
 
+
+    const setGama = (sr:boolean) => {
+      setColor(!color)
+    }
+
+    // @ts-ignore
     return (
         <div id={'hw4-stand'} className={s.stand}>
             <div className={s.inputs}>
@@ -75,6 +84,8 @@ const Stand = () => {
                     <SuperButton
                         id={'hw4-super-button-secondary'}
                         xType={'secondary'}
+                        onClick={()=>setGama(true)}
+                        // color={color}
                     >
                         secondary
                     </SuperButton>
