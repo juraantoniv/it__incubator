@@ -29,7 +29,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     const disableCondition = color ? s.color : ''
 
     const finalClassName = `${s.button} ${disableCondition}`
-    console.log(finalClassName);
+
 
     return (
         <button
