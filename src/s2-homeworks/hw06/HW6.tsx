@@ -19,10 +19,10 @@ const HW6 = () => {
     }
     const restore = () => {
 
-        let state = value
+        let state = ''
         const stateAsString = localStorage.getItem('hw6-editable-span-value')
         if (stateAsString !== null) state = JSON.parse(stateAsString)
-        return state
+        setValue(state)
 
     }
 
@@ -39,7 +39,7 @@ const HW6 = () => {
                         onChangeText={setValue}
                         spanProps={{
                             id: 'hw6-editable-span',
-                            defaultText: 'enter text...',
+                            defaultText: value ? value:'enter text..'
                         }}
                     />
                 </div>
