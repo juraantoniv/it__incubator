@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a29ed014-9e0e-406a-a7e2-900ed11dae59" name="Changes" comment="ok">
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N5XCL0RrOm36zP454ZeTY82Ltt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Yura\\IdeaProjects\\it__incubator\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Jest.check age 18">
+    <configuration name="check age 18" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
+      <test-names>
+        <test-name value="check age 18" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="sort name down" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
+      <test-names>
+        <test-name value="sort name down" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="sort name up" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
+      <test-names>
+        <test-name value="sort name up" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.check age 18" />
+        <item itemvalue="Jest.sort name down" />
+        <item itemvalue="Jest.sort name up" />
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a29ed014-9e0e-406a-a7e2-900ed11dae59" name="Changes" comment="" />
+      <created>1678954791282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678954791282</updated>
+      <workItem from="1678954792756" duration="528000" />
+      <workItem from="1678968665547" duration="2773000" />
+      <workItem from="1679133711002" duration="617000" />
+      <workItem from="1679383488520" duration="15486000" />
+      <workItem from="1679467064813" duration="1187000" />
+      <workItem from="1679500703085" duration="2810000" />
+      <workItem from="1679553600337" duration="9798000" />
+      <workItem from="1679579619655" duration="2276000" />
+      <workItem from="1679645448027" duration="6000" />
+      <workItem from="1679645512953" duration="29000" />
+      <workItem from="1679859568905" duration="4232000" />
+      <workItem from="1680070269950" duration="6123000" />
+      <workItem from="1680079915014" duration="1224000" />
+      <workItem from="1680160168105" duration="33000" />
+      <workItem from="1680549996990" duration="745000" />
+      <workItem from="1680595056702" duration="596000" />
+      <workItem from="1680640316078" duration="977000" />
+      <workItem from="1680643184636" duration="358000" />
+      <workItem from="1680678505224" duration="2495000" />
+      <workItem from="1680713337450" duration="4956000" />
+      <workItem from="1680727469537" duration="1133000" />
+      <workItem from="1680729048533" duration="455000" />
+      <workItem from="1680892546764" duration="961000" />
+      <workItem from="1681114759394" duration="85000" />
+      <workItem from="1681244704782" duration="2845000" />
+      <workItem from="1681305328211" duration="1688000" />
+      <workItem from="1681307762849" duration="875000" />
+      <workItem from="1681309732004" duration="1428000" />
+      <workItem from="1681311195004" duration="315000" />
+      <workItem from="1681311569616" duration="351000" />
+      <workItem from="1681313372523" duration="7224000" />
+      <workItem from="1681322562725" duration="1213000" />
+    </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1679396593444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679396593444</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ok">
+      <created>1679576777125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679576777125</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ok">
+      <created>1680072958721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680072958721</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ok">
+      <created>1680640939159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680640939159</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ok">
+      <created>1680678756643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680678756643</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ok">
+      <created>1681310250676</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681310250676</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ok">
+      <created>1681310725120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681310725120</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ok">
+      <created>1681311242968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681311242968</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ok">
+      <created>1681319162133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681319162133</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ok">
+      <created>1681319450777</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681319450777</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ok">
+      <created>1681319919086</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681319919086</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
+</project>
