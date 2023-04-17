@@ -19,26 +19,7 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
 
             return  action.payload === 'up' ? newState : newState.reverse()
 
-            // return state.sort(function(a, b) {
-            //
-            //
-            //
-            //     const nameA = a.name.toLowerCase(), nameB = b.name.toLowerCase();
-            //
-            //     if (action.payload==='down') {
-            //
-            //         if (nameA < nameB) {
-            //             return -1;
-            //         }
-            //     }
-            //     if (action.payload==='up') {
-            //
-            //         if (nameA > nameB) {
-            //             return 1;
-            //         }
-            //     }
-            //     return 0
-            // })// need to fix
+
         }
         case 'check': {
 
