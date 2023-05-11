@@ -11,7 +11,10 @@ function Clock() {
 
     const start = () => {
 
+
         const id = setInterval(() => setDate(new Date()), 1000)
+
+        console.log(id);
 
 
         setTimerId(id)
@@ -24,9 +27,12 @@ function Clock() {
 
     }
 
+
+
+
     const stop = () => {
 
-        clearTimeout(timerId)
+        clearInterval(timerId)
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
         setTimerId(undefined)
         setShow(false)
@@ -46,7 +52,8 @@ function Clock() {
     }
 
 
-    const stringTime =  date.toLocaleTimeString('en-US', { hour12: false, hour: "numeric", minute: "numeric"})|| <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
+
+    const stringTime =  date.toLocaleTimeString()|| <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
     // const stringTime =  new Date().toLocaleTimeString('en-US', { hour12: false, hour: "numeric", minute: "numeric"}) || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
     const stringDate = date.toISOString().slice(0, 10).split('-').reverse().toString().replaceAll(',','.') || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
@@ -77,8 +84,8 @@ function Clock() {
                 <div className={s.more}>
                     {show ? (
                         <>
-                            <span id={'hw9-month'}>{stringMonth}</span>,{' '}
-                            <span id={'hw9-date'}>{stringDate}</span>
+                            <span id={'hw9-date'}>{stringDate},</span>
+                            <span id={'hw9-month'}>{stringMonth}</span>
                         </>
                     ) : (
                         <>

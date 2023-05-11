@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a29ed014-9e0e-406a-a7e2-900ed11dae59" name="Changes" comment="okk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/HW10.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/Loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw10/bll/loadingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw11/HW11.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="Jest.check age 18" />
         <item itemvalue="Jest.sort name down" />
         <item itemvalue="Jest.sort name up" />
-        <item itemvalue="npm.predeploy" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +162,14 @@
       <workItem from="1681734326202" duration="1671000" />
       <workItem from="1681736083236" duration="620000" />
       <workItem from="1682543377040" duration="4503000" />
-      <workItem from="1682583297539" duration="4980000" />
+      <workItem from="1682583297539" duration="11870000" />
+      <workItem from="1682611371105" duration="22000" />
+      <workItem from="1683192007377" duration="2210000" />
+      <workItem from="1683216234538" duration="11000" />
+      <workItem from="1683233899397" duration="1527000" />
+      <workItem from="1683380203167" duration="235000" />
+      <workItem from="1683613121058" duration="11000" />
+      <workItem from="1683793051038" duration="5308000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1679396593444</created>
@@ -260,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681736141831</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="okk">
+      <created>1682589071538</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682589071538</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
