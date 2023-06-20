@@ -19,13 +19,20 @@ function HW11() {
 
     const change = (event: ChangeEvent<HTMLInputElement> | Event, value: number| number[]) => {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
-            if (typeof value!=='number'){
+            if (Array.isArray(value)){
 
                 setValue1(value[0])
                 setValue2(value[1])
 
-            }
 
+
+                console.log('1')
+            }
+            else {
+                console.log('2')
+                setValue1(value)
+            }
+      
 
     }
 
@@ -43,7 +50,8 @@ function HW11() {
                             // сделать так чтоб value1 изменялось // пишет студент
                             value={value1}
 
-                            onChange={(event, value) => setValue1(value)}
+                            // onChange={(event, value) => setValue1(value)}
+                            onChange={change}
 
                         />
                     </div>
@@ -51,9 +59,9 @@ function HW11() {
                         <span id={'hw11-value-1'} className={s.number}>{value1}</span>
                         <SuperRange
                             id={'hw11-double-slider'}
-                            // сделать так чтоб value1/2 изменялось // пишет студент
+
                             value={[value1,value2] as number[]}
-                            // onChange={(event, value, activeThumb) => change(event,value)}
+
                             onChange={change}
 
                         />
